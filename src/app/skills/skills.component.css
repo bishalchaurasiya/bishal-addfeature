@@ -1,0 +1,21 @@
+.containers{
+    margin-left: 40%;
+}
+
+.skill{
+    font-size: 50px;
+    padding-top: 80px;
+    margin-left: 80px;
+}
+
+.label{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top : 50px;
+    text-indent : 20px;
+}
+
+.full-width{
+    margin-left: 20px;
+    width: 30%;
+}

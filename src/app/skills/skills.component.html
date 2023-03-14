@@ -1,0 +1,29 @@
+<form #skillMasterForm="ngForm" (ngSubmit)="formSubmit()">
+    <h1 class="skill">Groups Skill Master</h1> 
+      <div>
+      <mat-label class="label1">Add Skill To Group</mat-label>
+      <mat-form-field class="full-width" appearance="outline">
+      <input required [(ngModel)]="skill.skill_group_name" name="skill_name" matInput placeholder="Group Name">  
+  
+      </mat-form-field>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+      <button mat-raised-button color="primary">Add</button>
+
+<div class="containers">
+<table border="3">
+<thead>
+<tr>
+<th>skill_group_id</th> 
+<th>skill_group_name</th>
+<!-- <th>skill_group_id</th>
+<th>skill_group_name</th> -->
+</tr>
+</thead>
+<tbody>
+<tr *ngFor="let skill of skills">
+<td>{{skill.skill_group_id}}</td>
+<td>{{skill.skill_group_name}}</td>
+</tr>
+
+</tbody>
+</table>
+</div> 
